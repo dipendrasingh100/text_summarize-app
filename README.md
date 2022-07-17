@@ -1,4 +1,5 @@
 ## Text Summarization app using streamlit & Transformers.
+https://camo.githubusercontent.com/be18f2a0b31d499325b4fcdb1f12da2321874b1b9c9327fe9b0d07269cfc3dbb/687474703a2f2f696d672e796f75747562652e636f6d2f76692f4c4b3964564e39794d59592f302e6a7067
 
 🤗 Transformers provides APIs to easily download and train state-of-the-art pretrained models. Using pretrained models can reduce your compute costs, carbon footprint, and save you time from training a model from scratch.
 
