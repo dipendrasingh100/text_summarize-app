@@ -5,7 +5,7 @@
 
 HuggingFace Transformer models provide an easy-to-use implementation of some of the best performing models in natural language processing. Transformer models are the current state-of-the-art (SOTA) in several NLP tasks such as text classification, text generation, text summarization, and question answering. 
 
-I used BART or Bidirectional and Auto-Regressive Transformer model in this Text Summarization. HuggingFace provides access to both pre-trained and fine-tuned weights to thousands of Transformer models, BART being just one of them.
+I used BART or Bidirectional and Auto-Regressive Transformer model in this Text Summarization. HuggingFace provides access to both pre-trained and fine-tuned weights to thousands of Transformer models, BART being just one of them. BART is a transformer encoder-encoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder.
 
 ## How to use text summarizer ?
 - first, clone this repo in your working directory. command - **git clone [repoURL]**
