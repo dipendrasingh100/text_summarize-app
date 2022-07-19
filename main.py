@@ -5,7 +5,9 @@ import time
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    sum = pipeline("summarization",model="facebook/bart-large-cnn")
+    tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
+    model = BartForConditionalGeneration.from_pretrained()
+    sum = pipeline("summarization",model=model,tokenizer=tokenizer)
     return sum
 
 summarizer = load_model()
